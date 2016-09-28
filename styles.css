@@ -6,18 +6,27 @@ html {
 	box-sizing: inherit;
 }
 
-#container {
-	height: 550px;
+
+#background{
+	height: 600px;
 	width: 1000px;
 	background-color: #5BA3D6;
 	margin: auto;
 	margin-top: 100px;
+	padding: 25px;
+
 }
 
 label {
 	font-family: Arial;
 	color: white;
 	font-size: 13px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+label.spacer {
+	margin-top: 40px;
 }
 
 /*If I use class or ID, doesn't work. why need to use new selector?*/
@@ -29,7 +38,7 @@ input[type="text"] {
 	color: white;
 	font-size: 13px;
 	font-family: Arial;
-
+	width: 300px;
 }
 
 input[type="text"]:focus {
@@ -41,3 +50,42 @@ input[type="text"]:focus {
 	font-style: italic;
 	font-size: 13px;
 }
+
+select {
+    width: 300px;
+    border: 1px solid #93A5B1;
+    background-color: #5BA3D6;
+    color: white;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+textarea{
+	width: 300px;
+	height: 150px;
+    border: 2px solid white;
+    background-color: #5BA3D6;
+    color: white;
+    font-size: 13px;
+    font-family: Arial;
+    outline: none;
+    padding: 10px;
+}
+
+textarea:focus {
+	border: 2px solid #2A6A98;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
