@@ -1,0 +1,13 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:after, *:before {
+	box-sizing: inherit;
+}
+
+div {
+	height: 30px;
+	width: 30px;
+	background: red;
+}
