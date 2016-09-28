@@ -9,7 +9,7 @@ html {
 
 #background{
 	height: 600px;
-	width: 1000px;
+	width: 1125px;
 	background-color: #5BA3D6;
 	margin: auto;
 	margin-top: 100px;
@@ -17,8 +17,13 @@ html {
 
 }
 
+div {
+	float: left;
+	margin-left: 50px;
+}
+
 label {
-	font-family: Arial;
+	font-family: sans-serif;
 	color: white;
 	font-size: 13px;
 	display: block;
@@ -44,6 +49,22 @@ input[type="text"] {
 input[type="text"]:focus {
 	border: 2px solid #2A6A98;
 }
+
+input[type="email"] {
+	background-color: #5BA3D6;
+	border: 2px solid white;
+	padding: 10px; 
+	outline: none;
+	color: white;
+	font-size: 13px;
+	font-family: Arial;
+	width: 300px;
+}
+
+input[type="email"]:focus {
+	border: 2px solid #2A6A98;
+}
+
 
 ::-webkit-input-placeholder {
 	color: #346F9B;
@@ -76,7 +97,20 @@ textarea:focus {
 	border: 2px solid #2A6A98;
 }
 
+input[type="tel"] {
+	background-color: #5BA3D6;
+	border: 2px solid white;
+	padding: 10px; 
+	outline: none;
+	color: white;
+	font-size: 13px;
+	font-family: Arial;
+	width: 300px;
+}
 
+input[type="tel"]:focus {
+	border: 2px solid #2A6A98;
+}
 
 
 

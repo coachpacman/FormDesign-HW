@@ -8,26 +8,80 @@
 <body>
 
 	<form id="background">
-		<label>FIRST NAME</label>
-		<input id="textField" type="text" placeholder="Jonathan" />
+		<div>
 
-		<label class="spacer">LAST NAME</label>
-		<input id="textField" type="text" placeholder="Doe" />
-		
-		<label class="spacer">EMAIL</label>
-		<input id="email" type="text" placeholder="jon@doe.com" />
+			<label for="firstName">FIRST NAME</label>
+			<input id="firstName" type="text" placeholder="Jonathan" />
+
+			<label class="spacer" for="lastName">LAST NAME</label>
+			<input id="lastName" type="text" placeholder="Doe" />
+			
+			<label class="spacer" for="email">EMAIL</label>
+			<input id="email" type="email" placeholder="jon@doe.com" />
 
 
-		<label class="spacer">COUNTRY</label>
-		  <select id="country" name="country">
-		    <option value="choose">Choose a country</option>
-		    <option value="fr">France</option>
-		    <option value="it">Italy</option>
-		    <option value="pg">Portugal</option>
-		  </select>
+			<label class="spacer" for="country">COUNTRY</label>
+			  <select id="country" name="country">
+			    <option value="choose">Choose a country</option>
+			    <option value="fr">France</option>
+			    <option value="it">Italy</option>
+			    <option value="pg">Portugal</option>
+			  </select>
 
-		<label class="spacer">BIOGRAPHY</label>
-		<textarea></textarea>
+			<label class="spacer" for="biography">BIOGRAPHY</label>
+			<textarea id="biography"></textarea>
+
+		</div>
+
+		<div>
+
+			<label for="phoneNumber">PHONE NUMBER</label>
+			<input id="phoneNumber" type="tel" placeholder="+351 999 999"/>
+
+			<label class="spacer" for="affiliations">AFFILIATIONS</label>
+			<textarea id="affiliations"></textarea>
+
+			<label class="spacer" for="occupation">OCCUPATION</label>
+			  <select id="occupation" name="occupation">
+			    <option value="choose">Choose an occupation</option>
+			    <option value="fr">Front End engineer</option>
+			    <option value="it">Back End engineer</option>
+			    <option value="pg">Gabe's job</option>
+			  </select>
+
+			<label class="spacer" for="catsName">CAT'S NAME</label>
+			<input id="catsName" type="text" placeholder="Kitty" />
+
+
+			<label class="spacer" for="favGadget">FAVORITE GADGET</label>
+			<input id="favGadget" type="text" placeholder="Annoy-a-tron" />
+
+		</div>
+
+		<div>
+
+			<label for="typeTalent">TYPE OF TALENT</label>
+			  <select id="typeTalent" name="typeTalent">
+			    <option value="hw">Choose a talent</option>
+			    <option value="lessHw">Asking for less HW</option>
+			    <option value="kareoke">Kareoke</option>
+			  </select>
+
+			<label class="spacer" for="favDrink">FAVORITE DRINK</label>
+			<input id="favDrink" type="text" placeholder="Green Tea" />
+
+			<label class="spacer" for="sPower">SPECIAL POWER</label>
+			<input id="sPower" type="text" placeholder="Anti-gravity" />
+
+			<label class="spacer" for="weapon">WEAPON OF CHOICE</label>
+			<input id="weapon" type="text" placeholder="Lightsaber" />
+
+			<label class ="spacer" for="comments">COMMENTS</label>
+			<textarea id="comments"></textarea>
+				
+		</div>
+
+
 	</form>
 
 </body>
