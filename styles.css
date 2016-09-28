@@ -6,7 +6,7 @@ html {
 	box-sizing: inherit;
 }
 
-div {
+#container {
 	height: 550px;
 	width: 1000px;
 	background-color: #5BA3D6;
@@ -17,5 +17,27 @@ div {
 label {
 	font-family: Arial;
 	color: white;
+	font-size: 13px;
+}
+
+/*If I use class or ID, doesn't work. why need to use new selector?*/
+input[type="text"] {
+	background-color: #5BA3D6;
+	border: 2px solid white;
+	padding: 10px; 
+	outline: none;
+	color: white;
+	font-size: 13px;
+	font-family: Arial;
+
+}
+
+input[type="text"]:focus {
+	border: 2px solid #2A6A98;
+}
+
+::-webkit-input-placeholder {
+	color: #346F9B;
+	font-style: italic;
 	font-size: 13px;
 }
